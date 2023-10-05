@@ -1,0 +1,7 @@
+### CREATE OR REMOVE LIKE
+POST http://localhost:8080/close/like/1
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTMwNjU3MzEsImVtYWlsIjoibXlzaHVrdXJvdkBnbWFpbC5jb20iLCJleHAiOjE2OTM5Mjk3MzEsImlzcyI6IllPVVRVQkUgUE9SVEFMIn0.I7aGqkuiHUK9HJTFmOHrMSlbfs9ryNhubPKobMmwDYR-N-ztjjGbnzADIKYEANkeo3DMt71WL5xO89SpssdZrw
+
+### CREATE OR REMOVE DISLIKE
+POST http://localhost:8080/close/dislike/1
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTMwNjU3MzEsImVtYWlsIjoibXlzaHVrdXJvdkBnbWFpbC5jb20iLCJleHAiOjE2OTM5Mjk3MzEsImlzcyI6IllPVVRVQkUgUE9SVEFMIn0.I7aGqkuiHUK9HJTFmOHrMSlbfs9ryNhubPKobMmwDYR-N-ztjjGbnzADIKYEANkeo3DMt71WL5xO89SpssdZrw

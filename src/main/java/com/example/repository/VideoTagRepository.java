@@ -1,0 +1,1 @@
+package com.example.repository;import com.example.entity.VideoTagEntity;import org.springframework.data.jpa.repository.JpaRepository;public interface VideoTagRepository extends JpaRepository<VideoTagEntity, String> {}

@@ -1,0 +1,31 @@
+### Create category
+POST localhost:8080/api/v1/category
+Content-Type: application/json
+
+{
+  "name": "Ali"
+}
+
+
+### Update category
+PUT localhost:8080/api/v1/category/1
+Content-Type: application/json
+
+{
+  "name": "Vali"
+}
+
+
+###Get category
+GET localhost:8080/api/v1/category/all
+
+### Get By Id
+GET http://localhost:8080/api/v1/category/open/get-by-id/1
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTI1MjQ4OTEsImVtYWlsIjoibXlzaHVrdXJvdkBnbWFpbC5jb20iLCJleHAiOjE2OTMzODg4OTEsImlzcyI6IllPVVRVQkUgUE9SVEFMIn0.dU8ZvNJjMdK0MRUYG0-0EjhMdTqd2d3ctoKn1KjzQNEvw6Wg-yyhrIk5RFOnRxlhVKXXHqVDP5JD5IskaLfg4w
+
+
+###Delete category
+DELETE localhost:8080/api/v1/category/1
+
+
+

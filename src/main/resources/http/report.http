@@ -1,0 +1,24 @@
+### CREATE
+POST http://localhost:8080/api/v1/report/close/ceate
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTMzODA1NTYsImVtYWlsIjoibXlzaHVrdXJvdkBnbWFpbC5jb20iLCJleHAiOjE2OTQyNDQ1NTYsImlzcyI6IllPVVRVQkUgUE9SVEFMIn0.Du44LAh9G5WZUV_5mnwlM3cRPdGP4zhUlXa6r9XQrqQC9lKHEsDrCH7BjklcmBGHfoxMxd0gdsKFQCF80BLnRA
+
+{
+  "content": "report 3 content",
+  "channelId": "1",
+  "videoId": "1",
+  "videoType": "SHORT"
+}
+
+### PAGING
+GET http://localhost:8080/api/v1/report/close/paging
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTMzODA1NTYsImVtYWlsIjoibXlzaHVrdXJvdkBnbWFpbC5jb20iLCJleHAiOjE2OTQyNDQ1NTYsImlzcyI6IllPVVRVQkUgUE9SVEFMIn0.Du44LAh9G5WZUV_5mnwlM3cRPdGP4zhUlXa6r9XQrqQC9lKHEsDrCH7BjklcmBGHfoxMxd0gdsKFQCF80BLnRA
+
+### REMOVE BY ID
+DELETE http://localhost:8080/api/v1/report/close/delete/c8bf0f2d-9454-4a8b-b841-7241ca5dfe2b
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTMzODA1NTYsImVtYWlsIjoibXlzaHVrdXJvdkBnbWFpbC5jb20iLCJleHAiOjE2OTQyNDQ1NTYsImlzcyI6IllPVVRVQkUgUE9SVEFMIn0.Du44LAh9G5WZUV_5mnwlM3cRPdGP4zhUlXa6r9XQrqQC9lKHEsDrCH7BjklcmBGHfoxMxd0gdsKFQCF80BLnRA
+
+### GET LIST BY PROFILE ID
+GET http://localhost:8080/api/v1/report/close/list-by-profile/1
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTMzODA1NTYsImVtYWlsIjoibXlzaHVrdXJvdkBnbWFpbC5jb20iLCJleHAiOjE2OTQyNDQ1NTYsImlzcyI6IllPVVRVQkUgUE9SVEFMIn0.Du44LAh9G5WZUV_5mnwlM3cRPdGP4zhUlXa6r9XQrqQC9lKHEsDrCH7BjklcmBGHfoxMxd0gdsKFQCF80BLnRA
+

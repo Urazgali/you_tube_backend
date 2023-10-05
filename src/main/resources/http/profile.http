@@ -1,0 +1,23 @@
+### Create profile
+POST http://localhost:8080/api/v1/profile/admin/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTMwNzg3NDksImVtYWlsIjoibnVyYmVrYW1pbm92MTNAZ21haWwuY29tIiwiZXhwIjoxNjkzOTQyNzQ5LCJpc3MiOiJZT1VUVUJFIFBPUlRBTCJ9.l3ZWDSZ-zY1OBDDJKdhM3DlSlv1fwSn-f593SeViBVYYpwoqm7xuO3VzjyNXgH7F_d7K4FaIUXtEn51LLS1S4w
+
+{
+  "name": "Vlai",
+  "surname": "Valiyev",
+  "email": "Vali123@gmail.com",
+  "password": "12345678"
+}
+
+###Get detail
+GET http://localhost:8080/api/v1/profile/user/get/detail
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTMwNzg4NDIsImVtYWlsIjoiVmFsaTEyM0BnbWFpbC5jb20iLCJleHAiOjE2OTM5NDI4NDIsImlzcyI6IllPVVRVQkUgUE9SVEFMIn0.x9etWDahkBpj2E9h7FhNBpBlS5RBUCVCnJyvhpvbR4lRue9VK_6H5uSN-hZRJamjy0NJB6u4VEoqD_XxM2o5hQ
+
+###Update password
+PUT http://localhost:8080/api/v1/profile/user/update/password?newPassword=12345678910
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTIyMTcyMzAsImVtYWlsIjoibnVyYmVrYW1pbm92MTNAZ21haWwuY29tIiwiZXhwIjoxNjkyMjI4MDMwLCJpc3MiOiJZT1UgVFVCRSBQT1JUQUwifQ.BRvGyldncTe7WRcXNH6BnTtUh5kkXpfQuDi6i976DWc3gYc8gMDanfFvdDa0m_VtCb5DqK9cuTtYaPIkNET2PQ
+
+###Update email
+PUT http://localhost:8080/api/v1/profile/user/update/email?email=aminovnurbek007@gmail.com
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTIyMTcyMzAsImVtYWlsIjoibnVyYmVrYW1pbm92MTNAZ21haWwuY29tIiwiZXhwIjoxNjkyMjI4MDMwLCJpc3MiOiJZT1UgVFVCRSBQT1JUQUwifQ.BRvGyldncTe7WRcXNH6BnTtUh5kkXpfQuDi6i976DWc3gYc8gMDanfFvdDa0m_VtCb5DqK9cuTtYaPIkNET2PQ

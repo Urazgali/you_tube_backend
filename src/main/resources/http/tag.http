@@ -1,0 +1,28 @@
+### Create tag
+POST localhost:8080/api/v1/tag
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTE2NzY1NTUsImVtYWlsIjoiYXF1YUBnbWFpbC5jb20iLCJleHAiOjE2OTE2ODAxNTUsImlzcyI6IllPVSBUVUJFIFBPUlRBTCJ9.a8_dbgu0Mos_PwdgvxYjctHPf8WQtf4elfZGHd5BTxeg1UlE0HsurOooCHX8KdrrEQBdLX9egXsoQMZfJrehDQ
+
+{
+  "name": "Ali"
+}
+
+
+### Update tag
+PUT localhost:8080/api/v1/tag/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTE2NzY1NTUsImVtYWlsIjoiYXF1YUBnbWFpbC5jb20iLCJleHAiOjE2OTE2ODAxNTUsImlzcyI6IllPVSBUVUJFIFBPUlRBTCJ9.a8_dbgu0Mos_PwdgvxYjctHPf8WQtf4elfZGHd5BTxeg1UlE0HsurOooCHX8KdrrEQBdLX9egXsoQMZfJrehDQ
+{
+  "name": "Vali"
+}
+
+
+###Get tag
+GET localhost:8080/api/v1/tag/all
+
+###Delete tag
+DELETE localhost:8080/api/v1/tag/1
+
+
+
+

@@ -1,0 +1,1 @@
+package com.example.entity;import com.example.entity.Base.StringBaseEntity;import jakarta.persistence.Entity;import jakarta.persistence.Table;import lombok.Getter;import lombok.Setter;@Entity@Setter@Getter@Table(name = "preview_attach")public class PreviewAttachEntity extends StringBaseEntity {    private String url;}

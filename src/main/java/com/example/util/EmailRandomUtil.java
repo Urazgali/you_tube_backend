@@ -1,0 +1,1 @@
+package com.example.util;import java.util.Random;public class EmailRandomUtil {    public static Integer getRandom() {        Random random = new Random();        return random.nextInt(100, 999);    }}

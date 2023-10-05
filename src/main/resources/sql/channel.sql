@@ -1,0 +1,1 @@
+insert into channel (id,name,photo,description,status,banner,profile_id)      values ('100','Aaaaa','4654560','aAaAAaaAAaAa','ACTIVE','44444444',7);

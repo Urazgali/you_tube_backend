@@ -1,0 +1,58 @@
+16 08 2023 - 14:48:32.040 [main] INFO  com.example.YoutubeApplication - Starting YoutubeApplication using Java 19.0.1 with PID 4700 (E:\JAVA Jetbreins\youtube_v1\target\classes started by umint in E:\JAVA Jetbreins\youtube_v1)
+16 08 2023 - 14:48:32.041 [main] DEBUG com.example.YoutubeApplication - Running with Spring Boot v3.1.2, Spring v6.0.11
+16 08 2023 - 14:48:32.042 [main] INFO  com.example.YoutubeApplication - The following 1 profile is active: "urazgali"
+16 08 2023 - 14:48:33.494 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16 08 2023 - 14:48:33.614 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 108 ms. Found 7 JPA repository interfaces.
+16 08 2023 - 14:48:34.500 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+16 08 2023 - 14:48:34.514 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16 08 2023 - 14:48:34.514 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+16 08 2023 - 14:48:34.663 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16 08 2023 - 14:48:34.664 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2537 ms
+16 08 2023 - 14:48:34.874 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16 08 2023 - 14:48:34.951 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.6.Final
+16 08 2023 - 14:48:34.956 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+16 08 2023 - 14:48:35.163 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+16 08 2023 - 14:48:35.408 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+16 08 2023 - 14:48:35.434 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16 08 2023 - 14:48:35.725 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1c00d406
+16 08 2023 - 14:48:35.727 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16 08 2023 - 14:48:36.361 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+16 08 2023 - 14:48:37.777 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16 08 2023 - 14:48:38.058 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16 08 2023 - 14:48:38.572 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+16 08 2023 - 14:48:39.130 [main] DEBUG com.example.config.JwtTokenFilter - Filter 'jwtTokenFilter' configured for use
+16 08 2023 - 14:48:39.659 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16 08 2023 - 14:48:40.132 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@25d5327, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@188500e9, org.springframework.security.web.context.SecurityContextHolderFilter@4b60ff1c, org.springframework.security.web.header.HeaderWriterFilter@750448fb, org.springframework.security.web.authentication.logout.LogoutFilter@6426ad0b, com.example.config.JwtTokenFilter@38241615, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1aaa3406, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@791dcda7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7c1e5d14, org.springframework.security.web.access.ExceptionTranslationFilter@4708acc6, org.springframework.security.web.access.intercept.AuthorizationFilter@4b4a3114]
+16 08 2023 - 14:48:40.505 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+16 08 2023 - 14:48:40.509 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+16 08 2023 - 14:48:40.511 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16 08 2023 - 14:48:40.520 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16 08 2023 - 14:48:40.523 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16 08 2023 - 14:48:40.551 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16 08 2023 - 14:48:40.581 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+16 08 2023 - 14:50:18.153 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16 08 2023 - 14:50:18.157 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16 08 2023 - 14:50:18.182 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 23 ms
+16 08 2023 - 14:51:26.422 [pool-2-thread-1] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 22001
+16 08 2023 - 14:51:26.423 [pool-2-thread-1] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ОШИБКА: значение не умещается в тип character varying(255)
+16 08 2023 - 14:51:51.624 [pool-4-thread-1] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 22001
+16 08 2023 - 14:51:51.624 [pool-4-thread-1] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ОШИБКА: значение не умещается в тип character varying(255)
+16 08 2023 - 14:53:48.914 [pool-6-thread-1] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 22001
+16 08 2023 - 14:53:48.914 [pool-6-thread-1] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ОШИБКА: значение не умещается в тип character varying(255)
+16 08 2023 - 14:53:51.615 [pool-8-thread-1] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 22001
+16 08 2023 - 14:53:51.616 [pool-8-thread-1] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ОШИБКА: значение не умещается в тип character varying(255)

@@ -1,0 +1,59 @@
+### Create channel
+POST localhost:8088/api/v1/channel
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTIzNjU1NTksImVtYWlsIjoibnVyYmVrYW1pbm92MTNAZ21haWwuY29tIiwiZXhwIjoxNjkzMjI5NTU5LCJpc3MiOiJZT1VUVUJFIFBPUlRBTCJ9.9dgcEDp3hLPHWJnV04YBpW7F4jgE9q8Zs6QJCLTtoYOI9R7gApw1SckO0Kh8PTFNpLIEZuWtgD8pTlAZrVtOew
+
+{
+  "name": "88888 Channel",
+  "description": "sfadf 54df5dsc dfd",
+  "photoId": "5f4f7920-8b3a-4564-826b-367330771633",
+  "bannerId": "5f4f7920-8b3a-4564-826b-367330771633"
+}
+
+### Upadte channel
+PUT localhost:8088/api/v1/channel/update/4770df38-9031-4425-a0a1-71f30833930b
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTIzNjU1NTksImVtYWlsIjoibnVyYmVrYW1pbm92MTNAZ21haWwuY29tIiwiZXhwIjoxNjkzMjI5NTU5LCJpc3MiOiJZT1VUVUJFIFBPUlRBTCJ9.9dgcEDp3hLPHWJnV04YBpW7F4jgE9q8Zs6QJCLTtoYOI9R7gApw1SckO0Kh8PTFNpLIEZuWtgD8pTlAZrVtOew
+
+{
+  "name": "Update Channel",
+  "description": "88888ea-0a0d-4937-bf62-b0914f31d116"
+}
+
+### Update Channel photo ( USER and OWNER)
+PUT localhost:8088/api/v1/channel/update/photo/4770df38-9031-4425-a0a1-71f30833930b
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTIzNjU1NTksImVtYWlsIjoibnVyYmVrYW1pbm92MTNAZ21haWwuY29tIiwiZXhwIjoxNjkzMjI5NTU5LCJpc3MiOiJZT1VUVUJFIFBPUlRBTCJ9.9dgcEDp3hLPHWJnV04YBpW7F4jgE9q8Zs6QJCLTtoYOI9R7gApw1SckO0Kh8PTFNpLIEZuWtgD8pTlAZrVtOew
+
+{
+  "photoId": "1734f6ea-0a0d-4937-bf62-b0914f31d116"
+}
+
+### Update Channel banner ( USER and OWNER)
+PUT localhost:8088/api/v1/channel/update/banner/4770df38-9031-4425-a0a1-71f30833930b
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTIzNjU1NTksImVtYWlsIjoibnVyYmVrYW1pbm92MTNAZ21haWwuY29tIiwiZXhwIjoxNjkzMjI5NTU5LCJpc3MiOiJZT1VUVUJFIFBPUlRBTCJ9.9dgcEDp3hLPHWJnV04YBpW7F4jgE9q8Zs6QJCLTtoYOI9R7gApw1SckO0Kh8PTFNpLIEZuWtgD8pTlAZrVtOew
+
+{
+  "bannerId": "1734f6ea-0a0d-4937-bf62-b0914f31d116"
+}
+
+### Get by pages
+GET localhost:8088/api/v1/channel/pagination?page=1&size=5
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTIzNjU1NTksImVtYWlsIjoibnVyYmVrYW1pbm92MTNAZ21haWwuY29tIiwiZXhwIjoxNjkzMjI5NTU5LCJpc3MiOiJZT1VUVUJFIFBPUlRBTCJ9.9dgcEDp3hLPHWJnV04YBpW7F4jgE9q8Zs6QJCLTtoYOI9R7gApw1SckO0Kh8PTFNpLIEZuWtgD8pTlAZrVtOew
+
+### GET channel by ID
+GET localhost:8088/api/v1/channel/search/4770df38-9031-4425-a0a1-71f30833930b
+
+### Change Channel Status (ADMIN,USER and OWNER)
+PUT localhost:8088/api/v1/channel/update/status/4770df38-9031-4425-a0a1-71f30833930b
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTIzNjU1NTksImVtYWlsIjoibnVyYmVrYW1pbm92MTNAZ21haWwuY29tIiwiZXhwIjoxNjkzMjI5NTU5LCJpc3MiOiJZT1VUVUJFIFBPUlRBTCJ9.9dgcEDp3hLPHWJnV04YBpW7F4jgE9q8Zs6QJCLTtoYOI9R7gApw1SckO0Kh8PTFNpLIEZuWtgD8pTlAZrVtOew
+
+{
+  "status": "BLOCK"
+}
+
+### GET channel list
+GET localhost:8088/api/v1/channel/all
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTIzNjU1NTksImVtYWlsIjoibnVyYmVrYW1pbm92MTNAZ21haWwuY29tIiwiZXhwIjoxNjkzMjI5NTU5LCJpc3MiOiJZT1VUVUJFIFBPUlRBTCJ9.9dgcEDp3hLPHWJnV04YBpW7F4jgE9q8Zs6QJCLTtoYOI9R7gApw1SckO0Kh8PTFNpLIEZuWtgD8pTlAZrVtOew

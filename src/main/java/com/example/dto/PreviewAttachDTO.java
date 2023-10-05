@@ -1,0 +1,1 @@
+package com.example.dto;import com.example.dto.base.StringBaseDTO;import lombok.Getter;import lombok.Setter;@Getter@Setterpublic class PreviewAttachDTO extends StringBaseDTO {    String url;}

@@ -1,0 +1,42 @@
+### Create playlist
+POST localhost:8080/api/v1/playlist
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTIwMTM2ODUsImVtYWlsIjoibnVyYmVrYW1pbm92MTNAZ21haWwuY29tIiwiZXhwIjoxNjkyMDE3Mjg1LCJpc3MiOiJZT1UgVFVCRSBQT1JUQUwifQ.3mpxxCB03CzROEuQeFFoMVpgTXbNLL5Nl_Yy9lgPEHKUyhYseEWoEdP8_fAsjgDV8PF8_i5kWwIAW1dKWehR6A
+
+{
+  "name": "shamol",
+  "description":"wdejfigjifdkonugsrdfijgklbsidhfijognkjbarhuiodfjslknkjbiwfudvjnidfvusjn",
+  "status": "PRIVATE",
+  "orderNum":"1",
+  "channelId": "1"
+}
+
+
+### Update playlist
+PUT localhost:8080/api/v1/playlist/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTE5MTkzOTQsImVtYWlsIjoibXlzaHVrdXJvdkBnbWFpbC5jb20iLCJleHAiOjE2OTE5MjI5OTQsImlzcyI6IllPVSBUVUJFIFBPUlRBTCJ9.WzbcF5XCTuSt1tbDeJWLVhLX6LXWK8OuTG6YfP6ZkRWhmNO-Yg0HsrKNrio_9VQgCtTB7GdMG9RvsmfneUeBoA
+
+{
+  "name": "Vali"
+}
+
+###Status playlist
+PUT localhost:8080/api/v1/playlist/status/3
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTE5MTkzOTQsImVtYWlsIjoibXlzaHVrdXJvdkBnbWFpbC5jb20iLCJleHAiOjE2OTE5MjI5OTQsImlzcyI6IllPVSBUVUJFIFBPUlRBTCJ9.WzbcF5XCTuSt1tbDeJWLVhLX6LXWK8OuTG6YfP6ZkRWhmNO-Yg0HsrKNrio_9VQgCtTB7GdMG9RvsmfneUeBoA
+
+{
+  "status": "PUBLIC"
+}
+
+
+###Delete playlist
+DELETE localhost:8080/api/v1/playlist/2
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTE5MjEyOTAsImVtYWlsIjoibmF2cnV6b3ZhYmR1bGxvMDBAZ21haWwuY29tIiwiZXhwIjoxNjkxOTI0ODkwLCJpc3MiOiJZT1UgVFVCRSBQT1JUQUwifQ.ZMLLfmOSjiGd4qax-gWutvkQ3CFeQzUmD_p_isTVXkJeZS7T2uiKqdqH2gceYARw_16ZyNTJFm6EoSIsjkCfXg
+
+### Get by pages
+GET localhost:8080/api/v1/playlist/pagination?page=1&size=10
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTE5MjEyOTAsImVtYWlsIjoibmF2cnV6b3ZhYmR1bGxvMDBAZ21haWwuY29tIiwiZXhwIjoxNjkxOTI0ODkwLCJpc3MiOiJZT1UgVFVCRSBQT1JUQUwifQ.ZMLLfmOSjiGd4qax-gWutvkQ3CFeQzUmD_p_isTVXkJeZS7T2uiKqdqH2gceYARw_16ZyNTJFm6EoSIsjkCfXg
+
+

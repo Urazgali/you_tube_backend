@@ -1,0 +1,1 @@
+package com.example.enums;public enum VideoKind {    CREATED, PUBLISHED, BLOCK}

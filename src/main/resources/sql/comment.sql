@@ -1,0 +1,1 @@
+select cfrom comment c         inner join video v on c.video_id = v.idwhere v.title like concat('%', :title, '%');SELECT cFROM comment c         INNER JOIN video v on c.video_id = v.idWHERE c.video_id = v.id  and v.title LIKE CONCAT('%', :title, '%');

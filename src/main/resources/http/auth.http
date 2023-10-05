@@ -1,0 +1,64 @@
+### login
+POST localhost:8080/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "email": "aqua@gmail.com",
+  "password": "123412341"
+}
+
+### REGISTRAION
+POST http://localhost:8080/api/v1/auth/registration
+Content-Type: application/json
+
+{
+  "name": "nurbek",
+  "surname": "aminov",
+  "email": "nurbekaminov13@gmail.com",
+  "password": "12345678",
+  "role": "ROLE_ADMIN",
+  "status": "REGISTRATION",
+  "photoId": "1"
+}
+
+### REGISTRAION
+POST http://localhost:8080/api/v1/auth/registration
+Content-Type: application/json
+
+{
+  "name": "Myusuf",
+  "surname": "Shukurov",
+  "email": "myshukurov@gmail.com",
+  "password": "12345678",
+  "role": "ROLE_ADMIN",
+  "status": "REGISTRATION",
+  "photoId": "1"
+}
+
+###  LOGIN
+POST http://localhost:8080/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "email": "myshukurov@gmail.com",
+  "password": "12345678"
+}
+
+###  LOGIN
+POST http://localhost:8080/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "email": "user@gmail.com",
+  "password": "12345678"
+}
+
+
+###  LOGIN
+POST http://localhost:8080/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "email": "nurbekaminov13@gmail.com",
+  "password": "12345678"
+}
